@@ -1,0 +1,291 @@
+    @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .logo {
+        width: 15%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .logo img {
+        width: 30%;
+        border: white;
+        border-radius: 50px;
+    }
+    
+    .navbar {
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        position: sticky;
+        top: 0%;
+        background: blue;
+    }
+    
+    .nav-list {
+        width: 81%;
+        display: flex;
+        align-items: center;
+    }
+    
+    .nav-list .fa {
+        margin-right: 8px;
+    }
+    
+    .nav-list li {
+        list-style: none;
+        padding: 26px 34px;
+    }
+    
+    .nav-list li a {
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    
+    .nav-list li a:hover {
+        text-decoration: none;
+        color: gray;
+    }
+    
+    .nav-list li:hover .manu-1 {
+        display: block;
+        position: absolute;
+        margin-top: 15px;
+        margin-left: -15px;
+        background: black;
+        border-bottom: 5 px dotted #fff;
+        border-radius: 12px;
+    }
+    
+    .nav-list li:hover .manu-1 ul {
+        display: block;
+        margin: 10px;
+    }
+    
+    .nav-list li:hover .manu-1 ul li {
+        width: 150px;
+        padding: 10px;
+        border-bottom: 1 px dotted gray;
+        background: transparent;
+        border-radius: 0;
+        text-align: left;
+    }
+    
+    .rightNav {
+        width: 30%;
+        text-align: right;
+        padding: 0px 23px;
+    }
+    
+    #Search {
+        padding: 4px;
+        font-size: 17px;
+        border: 2px solid gray;
+        border-radius: 9px;
+    }
+    
+    .background {
+        background: rgba(0, 0, 0, 0.7) url('../img/City-Overview.jpg');
+        background-size: cover;
+        background-blend-mode: darken;
+    }
+    
+    .box-main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: whitesmoke;
+        max-width: 50%;
+        margin: auto;
+        height: 86%;
+        cursor: pointer;
+    }
+    
+    .firstsection {
+        height: 100vh;
+    }
+    
+    .secondHalf {
+        width: 30%;
+    }
+    
+    .secondHalf img {
+        width: 178%;
+        border: 124px black;
+        border-radius: 417px;
+        padding: 20px 16px;
+        display: block;
+        margin: auto;
+    }
+    
+    .text-big {
+        font-size: 35px;
+    }
+    
+    .text-small {
+        font-size: 19px;
+    }
+    
+    .btn {
+        padding: 8px 20px;
+        margin: 8px 3px;
+        border: 2px solid white;
+        border-radius: 8px;
+        background: none;
+        color: white;
+        cursor: pointer;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 16px;
+        list-style: none;
+        text-decoration: none;
+    }
+    
+    .btn:hover {
+        text-decoration: none;
+        color: gray;
+    }
+    
+    .btn-dark {
+        color: grey;
+        border: 2px solid gray;
+    }
+    
+    .btn-sm {
+        padding: 6px 10px;
+        vertical-align: middle;
+        font-size: 14px;
+    }
+    
+    .secRight {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        max-width: 80%;
+        margin: auto;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    
+    .secLeft {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        max-width: 80%;
+        margin: auto;
+        flex-direction: row-reverse;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    
+    .thumbnail img {
+        width: 135%;
+        border: 3px solid black;
+        border-radius: 15px;
+        margin-top: 19px;
+    }
+    
+    .paras {
+        padding: 0px 182px;
+        margin: 43px -110px;
+    }
+    
+    .sectionTag {
+        padding: 16px 0px;
+    }
+    
+    .sectionSubTag {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .secLeft paras {
+        margin: 0px -82px;
+    }
+    
+    .secLeft .thumbnail {
+        margin: 0px 41px;
+    }
+    
+    .contact {
+        background-color: #efefef;
+        height: 563px;
+    }
+    
+    .text-center {
+        text-align: center;
+        padding-top: 20px;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 35px;
+    }
+    
+    .form {
+        max-width: 62%;
+        margin: 25px auto;
+    }
+    
+    .form-input {
+        margin: 14px 13px;
+        width: 100%;
+        font-size: 16px;
+        border: 2px solid grey;
+        border-radius: 7px;
+        padding: 5px 4px;
+    }
+    
+    .text-footer {
+        text-align: center;
+        padding: 30px 0px;
+        font-family: 'Ubuntu', sans-serif;
+        display: flex;
+        justify-content: center;
+        color: white;
+    }
+    
+    .line {
+        width: 33px;
+        background-color: white;
+        height: 4px;
+        margin: 5px 3px;
+    }
+    
+    .burger {
+        display: none;
+        position: absolute;
+        cursor: pointer;
+        right: 5%;
+        top: 9px;
+    }
+    
+    .manu-1 {
+        display: none;
+    }
+    
+    .icon {
+        cursor: pointer;
+        padding: 0px;
+    }
+    
+    .icon .icon1:hover {
+        color: black;
+    }
+    
+    .icon .icon2:hover {
+        color: black;
+    }
+    
+    .icon .icon3:hover {
+        color: black;
+    }
+    
+    .icon .icon4:hover {
+        color: black;
+    }
+    
+    .icon .icon5:hover {
+        color: black;
+    }

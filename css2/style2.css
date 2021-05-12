@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background {
+    background: rgba(0, 0, 0, 0.7) url('index2.html/image/City-Overview.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
